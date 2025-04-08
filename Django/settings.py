@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'Home',
     'tailwind',
     'theme',
-    'django_browser_reload',
+    # 'django_browser_reload',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django_browser_reload.middleware.BrowserReloadMiddleware',
+    # 'django_browser_reload.middleware.BrowserReloadMiddleware',
 ]
 
 ROOT_URLCONF = 'Django.urls'
@@ -134,6 +134,6 @@ STATICFILES_DIRS = [
 ]
 
 TAILWIND_APP_NAME = 'theme' # This is the name of the app that will be used to generate the tailwind files
-INTERNAL_IPS = ['127.0.0.1']
+# INTERNAL_IPS = ['127.0.0.1']
 
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"

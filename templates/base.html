@@ -1,0 +1,39 @@
+{% load static %}
+{% load static tailwind_tags %}
+
+
+     
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Portfolio{% endblock %}</title>
+    {% tailwind_css %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+
+    {% block header %}
+    {% include 'nav.html' %}
+    {% endblock %}
+    
+</head>
+        
+<body>
+    {% block content %}
+     
+
+    
+
+    {% endblock %}
+    
+    
+</body>
+    <footer>
+        {% block footer %}
+            
+        {% endblock %}
+    </footer>
+
+</html>

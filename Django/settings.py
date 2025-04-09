@@ -26,9 +26,9 @@ SECRET_KEY = '*&7jmuv=3#64_d!dsb1__by#uq&e=($vp&6u=^34%x^47g1c#s'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['myportfolio-vmke.onrender.com']
+ALLOWED_HOSTS = ['myportfolio-0iwr.onrender.com']
 
 
 
